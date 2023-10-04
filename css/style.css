@@ -78,14 +78,14 @@ header{
 	color: #FFF;
 }
 .back{
-	background-image:linear-gradient(rgba(42, 108, 234, 0.8), rgba(42, 108, 234, 0.8)), url("/img/background.jpg");
+	background-image:linear-gradient(rgba(42, 108, 234, 0.8), rgba(42, 108, 234, 0.8)), url("../img/background.jpg");
 	background-position: 50% 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
 
 }
 .logo{
-	background: url('/img/logo.svg') 0% 44% no-repeat;
+	background: url('../img/logo.svg') 0% 44% no-repeat;
 	padding-left: 41px;
 	font-weight: 600;
 	align-self: center;
