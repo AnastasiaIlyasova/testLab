@@ -40,16 +40,19 @@ firstDot.addEventListener('click', function (){
     slides[0].style.display = 'flex'
     slides[1].style.display = 'none'
     slides[2].style.display = 'none'
+    dotColor()
 })
 secondDot.addEventListener('click', function (){
     slides[0].style.display = 'none'
     slides[1].style.display = 'flex'
     slides[2].style.display = 'none'
+    dotColor()
 })
 thirdDot.addEventListener('click', function (){
     slides[0].style.display = 'none'
     slides[1].style.display = 'none'
     slides[2].style.display = 'flex'
+    dotColor()
 })
 
 // Инициализация слайдера
